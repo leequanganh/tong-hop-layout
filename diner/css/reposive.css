@@ -1,0 +1,142 @@
+/* ///tablet/// */
+@media screen and (max-width :992px)  {
+    html{
+        /* font-size: 80% !important; */
+    }
+    .header-banner .card-body p{
+        width: 87% !important;
+    }
+    .tile h2 {
+        font-size: 32px;
+    }
+    .header-banner .card-body h5{
+        font-size: 44px ;
+        width: 96% !important;
+    }
+    .about--contain{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .about-tile {
+        width: 100% !important;
+    }
+    .about-content {
+        width: 88% !important;
+        
+    }
+    .book {
+        display: flex;
+        flex-direction: column;
+        padding: 0 22px;
+    }
+    .book-img{
+        width: 100% !important;
+        padding-top: 48px ;
+    }
+    .book-img img {
+        width: 100% !important;
+        height: 200px ;
+
+    }
+    .book-content{
+        width: 100% !important;
+        padding: 6.9rem 40px !important ; 
+    }
+    .book-content-top{
+        width: 100% !important;
+    }
+    .book-content-bottom .card-body p{
+        width: 100% !important;
+    }
+    .categori-content, .menu--contain {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr) !important;
+
+    }
+    .blog--contain  .blog-content{
+        grid-template-columns: repeat(2 , 1fr) !important;
+    }
+    .footer-top{
+        display: grid !important;
+        grid-template-columns: repeat(2 , 1fr) !important ;
+        grid-gap: 30px !important;
+    }
+    .footer-item  {
+        width:auto !important;
+        
+    }
+    .footer-item ul{
+        padding: 0 !important;
+    }
+    .footer-bottom{
+        flex-direction: column;
+    }
+    .footer-bottom p{
+        width: 100%;
+        text-align: right;
+    }
+    .footer-item div {
+        width: 100%;
+    }
+
+}
+/* ///mobile/// */
+@media screen and (max-width : 600px){
+    p{
+        font-size: 16px !important;
+    }
+    .header--contain {
+        padding: 0 5% !important;
+    }
+    .header-right .input-group{
+        display: none;
+    }
+    .header-banner .card-body h5{
+        width: 100% !important;
+        font-size: 40px !important;
+    }
+    /* /// */
+    .header-banner .card-body p{
+        width: 100% !important;
+    }
+    .menu--contain{
+        grid-template-columns: 1fr !important;
+    }
+    /* /// */
+    .stat{
+        grid-template-columns: 1fr 1fr!important;
+        position: initial !important;
+        transform: translateY(0) !important;
+
+    }
+    .stat--contain{
+        padding-top: 5%;
+        grid-template-columns: 1fr 1fr !important;
+    }
+    /* /// */
+    .video{
+        padding: 0 0 8% !important;
+    }
+     .video .video--contain {
+        width:90% !important;
+        background-color: white;
+        height: 35rem !important;
+        /* height: fit-content !important; */
+        /* position: initial !important; */
+    }
+    .video--contain img {
+        /* object-fit: contain !important; */
+    }
+    .mfp-content iframe#video{
+        width: 100% !important;
+    }
+    /* /// */
+    .blog--contain .blog-content{
+        grid-template-columns: 1fr !important;
+    }
+    /* /// */
+    .testimoni-content{
+        width: 100% !important;
+    }
+}
